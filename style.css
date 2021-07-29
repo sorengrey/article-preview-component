@@ -5,8 +5,36 @@ html, body {
 
 body {
   font-family: "Manrope", sans-serif;
-  background-color: hsl(212, 23%, 69%);
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
 }
+
+main {
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+}
+
+/* hero image */
+#drawers {
+  width: 50%;
+}
+
+/* both blocks of text */
+#text {
+ margin-left: 2em;
+}
+
+/* 'shift the overall look...' */
+#shift {
+  font-weight: 700;
+  margin: 2em 0 1em 0;
+}
+
+/* Michelle's avatar img */
+#michelle
+
+/* share arrow */
+#arrow
 
 .attribution {
   display: none;
