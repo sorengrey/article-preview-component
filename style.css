@@ -5,36 +5,70 @@ html, body {
 
 body {
   font-family: "Manrope", sans-serif;
+  color: hsl(217, 19%, 35%);
   background-color: hsl(210, 46%, 95%);
   display: flex;
+  font-size: 13px;
 }
 
 main {
+  margin: 6em auto 2em auto;
+  background-color: #FFFFFF;
+  display: flex;
   flex-direction: column;
-  margin: 0 auto 0 auto;
-}
-
-/* hero image */
-#drawers {
-  width: 50%;
+  width: 80%;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 /* both blocks of text */
 #text {
- margin-left: 2em;
-}
+  background-color: #FFFFFF;
+  margin: -3.1em 0 0 0;
+  padding: 0 0 3em 2em;
+  border-radius: 0 0 10px 10px;
+} 
 
 /* 'shift the overall look...' */
 #shift {
+  font-size: 18px;
   font-weight: 700;
   margin: 2em 0 1em 0;
 }
 
+/* 'Ever been in a room...'*/
+p {
+  width: 90%;
+  line-height: 22px;
+}
+
+h4 {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#namedate {
+
+}
+
+#author {
+  display: flex;
+}
+
 /* Michelle's avatar img */
-#michelle
+#michelle {
+  border-radius: 50%;
+  width: 30%;
+}
 
 /* share arrow */
-#arrow
+#arrow{
+  border-radius: 50%;
+  width: 30%;
+  display: inline-flex;
+  background: hsl(210, 46%, 95%);
+}
 
 .attribution {
   display: none;
