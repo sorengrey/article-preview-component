@@ -9,16 +9,21 @@ body {
   background-color: hsl(210, 46%, 95%);
   display: flex;
   font-size: 13px;
+  font-weight: 500;
 }
 
 main {
-  margin: 6em auto 2em auto;
+  margin: 6em auto auto auto;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
   border-radius: 12px;
   overflow: hidden;
+}
+
+#drawers {
+  margin-top: -1em;
 }
 
 /* both blocks of text */
@@ -31,21 +36,32 @@ main {
 
 /* 'shift the overall look...' */
 #shift {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
   font-weight: 700;
   margin: 2em 0 1em 0;
+  width: 263px;
 }
 
 /* 'Ever been in a room...'*/
 p {
-  width: 90%;
-  line-height: 22px;
+  width: 89%;
+  line-height: 20px;
+  letter-spacing: .12px;
+  font-weight: 200;
+  font-size: 13px;
 }
 
 h4 {
   display: inline-flex;
   font-weight: 700;
   font-size: 16px;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
 }
 
 #namedate {
@@ -59,15 +75,18 @@ h4 {
 /* Michelle's avatar img */
 #michelle {
   border-radius: 50%;
-  width: 30%;
+  width: 40px;
+  height: 40px;
 }
 
 /* share arrow */
 #arrow{
   border-radius: 50%;
-  width: 30%;
+  width: 32px;
+  height: 32px;
   display: inline-flex;
-  background: hsl(210, 46%, 95%);
+  color: #6E8098;
+  background: #ECF2F8;
 }
 
 .attribution {
