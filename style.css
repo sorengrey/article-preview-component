@@ -91,10 +91,12 @@ h5 {
 
 /* share arrow */
 #arrow {
+  background-image: url(./images/icon-share.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 50%;
   width: 32px;
   height: 32px;
-  background: #ECF2F8;
   margin: 0 0 0 3.75em;
   cursor: pointer;
 }
