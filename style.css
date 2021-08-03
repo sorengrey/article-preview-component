@@ -22,6 +22,7 @@ main {
   overflow: hidden;
 }
 
+/* main image */
 #drawers {
   margin-top: -1em;
 }
@@ -29,8 +30,8 @@ main {
 /* both blocks of text */
 #text {
   background-color: #FFFFFF;
-  margin: -3.1em 0 0 0;
-  padding: 0 0 3em 2em;
+  margin: -3.4em 0 0 0;
+  padding: 0 0 2em 1.75em;
   border-radius: 0 0 10px 10px;
 } 
 
@@ -53,23 +54,32 @@ p {
   font-size: 13px;
 }
 
+/* 'Michelle Appleton' */
 h4 {
   display: inline-flex;
   font-weight: 700;
-  font-size: 16px;
-}
-
-h5 {
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: .12px;
+  padding: 0 1em 0 1em;
   margin: 0;
+}
+
+/* date */
+h5 {
+  margin: 0 0 0 1em;
   padding: 0;
+  color: #9DAEC2;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: .12px;
+  font-weight: 200;
 }
 
-#namedate {
-
-}
-
+/* section holding the avatar, name, date, and share arrow */
 #author {
   display: flex;
+  margin: 2em 0 0 0;
 }
 
 /* Michelle's avatar img */
@@ -80,13 +90,13 @@ h5 {
 }
 
 /* share arrow */
-#arrow{
+#arrow {
   border-radius: 50%;
   width: 32px;
   height: 32px;
-  display: inline-flex;
-  color: #6E8098;
   background: #ECF2F8;
+  margin: 0 0 0 3.75em;
+  cursor: pointer;
 }
 
 .attribution {
