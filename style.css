@@ -31,7 +31,7 @@ main {
 #text {
   background-color: #FFFFFF;
   margin: -3.4em 0 0 0;
-  padding: 0 0 2em 1.75em;
+  padding: 0 0 .4em 1.75em;
   border-radius: 0 0 10px 10px;
 } 
 
@@ -47,7 +47,7 @@ main {
 
 /* 'Ever been in a room...'*/
 p {
-  width: 89%;
+  width: 88%;
   line-height: 20px;
   letter-spacing: .12px;
   font-weight: 200;
@@ -78,7 +78,7 @@ h5 {
 
 /* section holding the avatar, name, date, and share arrow */
 #author {
-  display: flex;
+  display: none;
   margin: 2em 0 0 0;
 }
 
@@ -99,6 +99,43 @@ h5 {
   height: 32px;
   margin: 0 0 0 3.75em;
   cursor: pointer;
+}
+
+/* share arrow in footer */
+#arrow2 {
+  display: inline-flex;
+  background-image: url(./images/icon-share.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  filter:brightness(3);
+  margin: -.3em 0 0 4.2em;
+  z-index: 1;
+  position: absolute;
+}
+
+#footer {
+  color: #9DAEC2;
+  background-color: #48556A;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 1.9em 0 1.9em 1em;
+  margin: auto;
+  width: 100%;
+  z-index: 0;
+}
+
+#footer img {
+  padding: 0 .3em 0 .3em;
+}
+
+#share {
+  display: inline-flex;
+  margin: auto;
+  padding: 0 .3em 0 1em;
 }
 
 .attribution {
