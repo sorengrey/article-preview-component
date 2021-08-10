@@ -1,14 +1,14 @@
-// targets the share buttons
-// let shareArrow = document.querySelectorAll("#arrow #footer");
+var author = document.querySelector('#author');
+var footer = document.querySelector('#footer');
 
-// takes in the click event, hides the author section, and unhides the footer
-let shareToggle = () => {
-    var author = document.querySelector('#author');
-    var footer = document.querySelector('#footer');
-    if(footer.style.display === "none") {
-        footer.style.display = "block";
-    } else {
-        footer.style.display = "none";
-        author.style.display = "block";
-    }
+// hides the author section, shows the footer
+function showFooter() {
+    footer.style.display = "block";
+    author.style.display = "none";
+}
+
+// hides the footer, shows the author section
+function hideFooter() {
+    footer.style.display = "none";
+    author.style.display = "flex";
 }
