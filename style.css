@@ -142,3 +142,39 @@ h5 {
 .attribution {
   display: none;
 }
+
+
+/* desktop view */
+@media screen and (min-width: 476px){
+  main {
+    flex-direction: row;
+    width: 730px;
+    height: 280px;
+  }
+  #text {
+    margin: -2em 0 0 -5em;
+    padding: 0 0 0 3em;
+    border-radius: 0;
+  }
+  #shift {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: .25px;
+    width: 90%;
+    color: #48556A;
+    margin: 3em 0 1em 0;
+  }
+  p {
+    width: 90%;
+    padding: 0 0 .5em 0;
+  }
+  #author {
+    width: 100%;
+    padding: 0;
+    margin: -.1em 0 0 0;
+  }
+  #arrow {
+    margin: 0 0 0 10em;
+  }
+}
