@@ -173,8 +173,20 @@ h5 {
     width: 100%;
     padding: 0;
     margin: -.1em 0 0 0;
+    display: flex;
   }
   #arrow {
     margin: 0 0 0 10em;
+  }
+  #arrow2 {
+    display: none;
+  }
+  #footer {
+    z-index: 1;
+    width: 248px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 11em 0 0 50em;
+    padding: 1em;
   }
 }
