@@ -156,6 +156,7 @@ h5 {
     flex-direction: row;
     width: 730px;
     height: 280px;
+    margin: auto;
   }
   #text {
     margin: -2em 0 0 -5em;
