@@ -10,7 +10,7 @@ function showFooter() {
     footer.style.position = "auto";
     author.style.display = "none";
     triangle.style.display = "block";
-    if($(window).width() > 376){
+    if($(window).width() > 375){
         author.style.display = "flex";
         arrow2.style.display = "block";
         arrow.style.display = "none";
