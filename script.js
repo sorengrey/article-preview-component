@@ -21,4 +21,7 @@ function hideFooter() {
     footer.style.display = "none";
     triangle.style.display = "block";
     author.style.display = "flex";
+    if(triangle.style.display = "block"){
+        arrow.style.display = "flex";
+    }
 }
